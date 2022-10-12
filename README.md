@@ -20,15 +20,15 @@ Let us imagine that we are a startup pickup company. We will have a set of picku
 
 1. ortools
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command ***pip install ortools***
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command 'pip install ortools'
 
 2. gmplot
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command ***pip install gmplot***
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command 'pip install gmplot'
 
 3. urllib
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command ***pip install urllib3***
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command 'pip install urllib3'
 
 ## Create an API_KEY for google maps
 
@@ -48,10 +48,23 @@ Steps to remember when creating the API_KEY:
 
 ## Inputs to the code
 
-This program takes four inputs
+This program takes four inputs 3 in terminal and 1 in the code.
 
-1. Enter the file contaning address as csv file (comma separated values).
+1. Enter the file contaning address as csv file with extension(.csv).
 2. Enter the depot location.
 3. Enter the min no of orders per pincode.
-4. Enter the API_Key
+4. Enter the API_Key in the '__main__' function.
+
+Example Inputs:
+
+'''
+Enter the file name of the csv file with extension .csv : list.csv
+Enter the pickup depot location : tirupati
+Enter the min_orders : 10
+'''
+
+
+
+
+
 
