@@ -1,4 +1,4 @@
-# Cost Efficient Way of Product Wastage Collection from Customers of E-Commerce.
+# Cost Efficient Product Wastage Collection from Customers of E-Commerce.
 
 In this technological era due to increase in the use of mobile phones and internet, e-commerce had a huge boom. So along with this increase in e-commerce, the wastage produce along with it is also increasing in the form of plastic wrappings, bubble wraps etc. These types of wastes are called e-commerce wastage. This e-commerce wastage can be decreased if a company can make a way to reuse the product wrappings in a cost-efficient way.
 
