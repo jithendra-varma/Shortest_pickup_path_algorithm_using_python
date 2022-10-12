@@ -67,27 +67,32 @@ Enter the min_orders : 10
 
 The are two types of outputs for this project.
 
-1. Termianl Output
-2. HTML files Output
+Termianl Output
+HTML files Output
 
 > These outputs contains two types of data one being calcualated using shortest distance and the other using shortest duartion.
 
-### Terminal Output
+1. Terminal Output
 
-Shortest Distance Path
+#### Shortest Distance Path
 ```
 Route based on shortest distance:
  tirupati -> Narasingapuram 517102 -> Chandragiri Fort 517102 -> Bopparajupalle 517102 -> Dornakambala 517102 -> Buchinaidupalle 517102 -> Mungilipattu 517102 -> Kotala 517102 -> Rangampet 517102 -> Seshapuram 517102 -> Bhimavaram 517102 -> Kalyani Dam 517102 -> Sree Vidynaikethan Eng College 517102 -> Kmm institute of technology 517102 -> Mangapuram 517102 -> tirupati
 Route distance: 111.775km
 Route duration: 3:41:45
 ```
-Shortest Duration Path
+#### Shortest Duration Path
 ```
  tirupati -> Kmm institute of technology 517102 -> Sree Vidynaikethan Eng College 517102 -> Seshapuram 517102 -> Bhimavaram 517102 -> Rangampet 517102 -> Kalyani Dam 517102 -> Narasingapuram 517102 -> Bopparajupalle 517102 -> Dornakambala 517102 -> Buchinaidupalle 517102 -> Mungilipattu 517102 -> Kotala 517102 -> Chandragiri Fort 517102 -> Mangapuram 517102 -> tirupati
 Route distance: 114.844km
 Route duration: 3:34:15
 ```
 
+2. HTML files Output
+
+#### Shortest Distance Path
+
+f
 
 
 
