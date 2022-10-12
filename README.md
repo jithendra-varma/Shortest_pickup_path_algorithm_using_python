@@ -16,6 +16,20 @@ Let us imagine that we are a startup pickup company. We will have a set of picku
 
 > What makes this algorithm unique is that it groups locations based on the pincodes and works only when certain no of orders at a certain pincode location crosses the threshold.
 
+## Packages to Install for this project
+
+1. ortools
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command ***pip install ortools***
+
+2. gmplot
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command ***pip install gmplot***
+
+3. urllib
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command ***pip install urllib3**
+
 ## Inputs to the code
 
 This program takes four inputs
