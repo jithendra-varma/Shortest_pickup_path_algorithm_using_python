@@ -12,6 +12,16 @@ The algorithm that is used in this process is explained here in the file [Pickup
 
 Let us imagine that we are a startup pickup company. We will have a set of pickup destinations, made known to us prior to the day of pickup, So as to plan a route that starts from our pickup depot, goes to each destination and ends back at the same pickup depot. This route will be optimised to either be of shortest distance or shortest time duration required. We also only have one pickup van. As such, we are only looking at a basic TSP and not the Vehicle Routing Problem.
 
-** Note **
+**NOTE**
 
 > What makes this algorithm unique is that it groups locations based on the pincodes and works only when certain no of orders at a certain pincode location crosses the threshold.
+
+## Inputs to the code
+
+This program takes four inputs
+
+1. Enter the file contaning address as csv file (comma separated values).
+2. Enter the depot location.
+3. Enter the min no of orders per pincode.
+4. Enter the API_Key
+
