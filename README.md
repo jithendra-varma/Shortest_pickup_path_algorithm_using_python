@@ -19,7 +19,8 @@ Let us imagine that we are a startup pickup company. We will have a set of picku
 ## Packages to Install for this project
 
 1. ortools
-- You can install it with the command ***pip install ortools***
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command ***pip install ortools***
 
 2. gmplot
 
@@ -37,8 +38,13 @@ Steps to remember when creating the API_KEY:
 2. Enable billing by providing billing information.
 3. Create a new project
 4. Enable the folloing four apis.
-5. 
+  - Geocoding API
+  - Distance Matrix API
+  - Maps JavaScript API
+  - Directions API
+5. Get the API_key credentials
 
+> These APIs are free for 90 days after the billing is enabled for your account.
 
 ## Inputs to the code
 
