@@ -19,7 +19,7 @@ Let us imagine that we are a startup pickup company. We will have a set of picku
 ## Packages to Install for this project
 
 1. ortools
-
+ 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command `pip install ortools`
 
 2. gmplot
@@ -72,28 +72,45 @@ HTML files Output
 
 > These outputs contains two types of data one being calcualated using shortest distance and the other using shortest duartion.
 
-1. Terminal Output
+#### Terminal Output
 
-#### Shortest Distance Path
+1. Shortest Distance Path
 ```
 Route based on shortest distance:
- tirupati -> Narasingapuram 517102 -> Chandragiri Fort 517102 -> Bopparajupalle 517102 -> Dornakambala 517102 -> Buchinaidupalle 517102 -> Mungilipattu 517102 -> Kotala 517102 -> Rangampet 517102 -> Seshapuram 517102 -> Bhimavaram 517102 -> Kalyani Dam 517102 -> Sree Vidynaikethan Eng College 517102 -> Kmm institute of technology 517102 -> Mangapuram 517102 -> tirupati
+ tirupati -> Narasingapuram 517102 -> Chandragiri Fort 517102 -> Bopparajupalle 517102 -> Dornakambala 517102 -> 
+ Buchinaidupalle 517102 -> Mungilipattu 517102 -> Kotala 517102 -> Rangampet 517102 -> Seshapuram 517102 -> Bhimavaram 517102 -> 
+ Kalyani Dam 517102 -> Sree Vidynaikethan Eng College 517102 -> Kmm institute of technology 517102 -> Mangapuram 517102 -> tirupati
 Route distance: 111.775km
 Route duration: 3:41:45
 ```
-#### Shortest Duration Path
+2. Shortest Duration Path
 ```
- tirupati -> Kmm institute of technology 517102 -> Sree Vidynaikethan Eng College 517102 -> Seshapuram 517102 -> Bhimavaram 517102 -> Rangampet 517102 -> Kalyani Dam 517102 -> Narasingapuram 517102 -> Bopparajupalle 517102 -> Dornakambala 517102 -> Buchinaidupalle 517102 -> Mungilipattu 517102 -> Kotala 517102 -> Chandragiri Fort 517102 -> Mangapuram 517102 -> tirupati
+ tirupati -> Kmm institute of technology 517102 -> Sree Vidynaikethan Eng College 517102 -> Seshapuram 517102 -> 
+ Bhimavaram 517102 -> Rangampet 517102 -> Kalyani Dam 517102 -> Narasingapuram 517102 -> Bopparajupalle 517102 -> Dornakambala 517102 -> 
+ Buchinaidupalle 517102 -> Mungilipattu 517102 -> Kotala 517102 -> Chandragiri Fort 517102 -> Mangapuram 517102 -> tirupati
 Route distance: 114.844km
 Route duration: 3:34:15
 ```
 
-2. HTML files Output
+#### HTML files Output
 
-#### Shortest Distance Path
+1. Shortest Distance Path
 
-f
-
-
+This returns a HTML file [Pickup(distance)map.html](https://github.com/jithendravarma/Shortest_pickup_path_algorithm_using_python/blob/main/Pickup(distance)map.html)
 
 
+![Shortest Distance](https://github.com/jithendra-varma/Shortest_pickup_path_algorithm_using_python/blob/main/Images/Pickup_Distance.png)
+
+
+2. Shortest Duration Path
+
+This returns a HTML file [Pickup(duration)map.html](https://github.com/jithendra-varma/Shortest_pickup_path_algorithm_using_python/blob/main/Pickup(duration)map.html)
+
+
+![Shortest Duration](https://github.com/jithendra-varma/Shortest_pickup_path_algorithm_using_python/blob/main/Images/Pickup_Duration.png)
+
+---
+
+### :man_astronaut: &nbsp; Show your support
+
+Give a ⭐️ if this helped you!
