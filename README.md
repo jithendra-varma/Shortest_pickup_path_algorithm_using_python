@@ -40,8 +40,8 @@ Steps to remember when creating the API_KEY:
 4. Enable the folloing four apis.
     - Geocoding API
     - Distance Matrix API
-  - Maps JavaScript API
-  - Directions API
+    - Maps JavaScript API
+    - Directions API
 5. Get the API_key credentials
 
 > These APIs are free for 90 days after the billing is enabled for your account.
