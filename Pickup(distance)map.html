@@ -1,0 +1,149 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Smallest Distance Pickup Path</title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&key=AIzaSyBBVt0GJ45Cr78KUCPS9K2Ss8LlkfM8CLo"></script>
+<script type="text/javascript">
+    function initialize() {
+        var map = new google.maps.Map(document.getElementById("map_canvas"), {
+            zoom: 13,
+            center: new google.maps.LatLng(13.628756, 79.419179)
+        });
+
+        var marker_icon_87CEEB = {
+            url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAiCAYAAACwaJKDAAAABmJLR0QA/wD/AP+gvaeTAAADH0lEQVRIia3WX0hTcRTA8e/dnJL9s0iapoRhJBU+LKKMkogQigifTHqoBw0yMomgqB6SCoNeoqKsiKioQFmQYloSriRdps3S1JiF/XG6VVjT1ey6u18P7tZWm87peblw7jkf7o/f+f24EmPHMmAtsADQAF7ABjwFOkI1SSHyG4ESYGWcPgn94qVMmzkb95ATe3cn3+29AM3AEeDReKgEnJIk6WB6VraUubOQhCXLkaTAsr437dTfOE9b7T0hhDgNHAZEMFQCzsRMn1GUW3KZtHVZoVb3J7rqH1J2dDe/frjOAvtVWOtXUxQVHVOcd9FI6qrMcUGA+IWppBjW8LLm7mqvonwDmvzRRKBiU9ExXXpWdligGnH6BURPi6XbbMoErgNDGt+7griE5NiM3PwJgWpkbMtjTmJyLFAAo2MCsNWwJQdtlC4iVBulw7BlG8BWFdUCaYtWrIkIVCPFkAGQBmg1gA6Inq1PmhTq648GdJo/WSFC1YcXfv0aQAbkb/2fJmX6+mVAVs9zV8+Lxkmhvv4uwKsuv9JSVY4yIkcEKp4RLFXlAJXwd6RKnQ6bq+HO5YjQxjtXcDpsLqAU/p4oFzDUYzFvTjFkMCcxOWywx2LGWFyIV1EOAHX+KMBz4VXmvq6rWpW6ej2z4vXjgn1v2ri2J4eRYfc54LiaD3b13ZoVr9++9/YjZs6bHxL86RzgXO4GnA5bOZCL39Wn+adWAPmDX+ztxuJ9iDFmt+LUIZwOmxXI8weDoQBuYIe1sc7zquZuUPBt0xPaau8B7GJ0PwIiGArwErj04PxJPHLgmAkhqL1QAmAE6oM1h0IBTjgdNnfr/fKAZE9LA59eWwR+GzMR9DNw01x2NSDZZLwOo6PTHgkKcKXf2oG9uxOAYdcgnU8eAFwbq2k81AJYO0zVAFjNJjzyLze+4xgpCnD/7bPHAHSbTQAmguz4RFFTb2cryois3kT//TxEgjZ7ZJmPbS0M9L4HME8Fage+dpiqEUIowKswesKK5sS0dAG8C6c4nC8F+Opb+oepRAeGXYMAQ1OJOnzPvqlE+33P9+EU/wZ+7yTQpguzpgAAAABJRU5ErkJggg==",
+            labelOrigin: new google.maps.Point(10, 11)
+        };
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.607378, 79.315563),
+            label: "1",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.583035, 79.305359),
+            label: "2",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.497102, 79.297599),
+            label: "3",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.545204, 79.304654),
+            label: "4",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.553200, 79.233837),
+            label: "5",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.558772, 79.247229),
+            label: "6",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.592359, 79.281759),
+            label: "7",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.624249, 79.276827),
+            label: "8",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.620482, 79.247582),
+            label: "9",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.610284, 79.230421),
+            label: "10",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.657660, 79.269221),
+            label: "11",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.621644, 79.290227),
+            label: "12",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.614400, 79.305358),
+            label: "13",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.609249, 79.448098),
+            label: "14",
+            icon: marker_icon_87CEEB,
+            map: map
+        });
+
+        new google.maps.DirectionsService().route({
+            origin: new google.maps.LatLng(13.628756, 79.419179),
+            destination: new google.maps.LatLng(13.628756, 79.419179),
+            waypoints: [
+                {location: new google.maps.LatLng(13.607378, 79.315563), stopover: false},
+                {location: new google.maps.LatLng(13.583035, 79.305359), stopover: false},
+                {location: new google.maps.LatLng(13.497102, 79.297599), stopover: false},
+                {location: new google.maps.LatLng(13.545204, 79.304654), stopover: false},
+                {location: new google.maps.LatLng(13.553200, 79.233837), stopover: false},
+                {location: new google.maps.LatLng(13.558772, 79.247229), stopover: false},
+                {location: new google.maps.LatLng(13.592359, 79.281759), stopover: false},
+                {location: new google.maps.LatLng(13.624249, 79.276827), stopover: false},
+                {location: new google.maps.LatLng(13.620482, 79.247582), stopover: false},
+                {location: new google.maps.LatLng(13.610284, 79.230421), stopover: false},
+                {location: new google.maps.LatLng(13.657660, 79.269221), stopover: false},
+                {location: new google.maps.LatLng(13.621644, 79.290227), stopover: false},
+                {location: new google.maps.LatLng(13.614400, 79.305358), stopover: false},
+                {location: new google.maps.LatLng(13.609249, 79.448098), stopover: false},
+            ],
+            travelMode: "DRIVING"
+        }, function(response, status) {
+            if (status == google.maps.DirectionsStatus.OK) {
+                new google.maps.DirectionsRenderer({map: map}).setDirections(response);
+            }
+        });
+
+    }
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+    <div id="map_canvas" style="width: 100%; height: 100%;" />
+</body>
+</html>
