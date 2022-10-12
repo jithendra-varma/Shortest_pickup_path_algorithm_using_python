@@ -38,8 +38,8 @@ Steps to remember when creating the API_KEY:
 2. Enable billing by providing billing information.
 3. Create a new project
 4. Enable the folloing four apis.
-  - Geocoding API
-  - Distance Matrix API
+    - Geocoding API
+    - Distance Matrix API
   - Maps JavaScript API
   - Directions API
 5. Get the API_key credentials
