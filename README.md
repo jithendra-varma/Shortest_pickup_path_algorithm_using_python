@@ -19,8 +19,7 @@ Let us imagine that we are a startup pickup company. We will have a set of picku
 ## Packages to Install for this project
 
 1. ortools
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command ***pip install ortools***
+- You can install it with the command ***pip install ortools***
 
 2. gmplot
 
@@ -28,7 +27,18 @@ Let us imagine that we are a startup pickup company. We will have a set of picku
 
 3. urllib
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command ***pip install urllib3**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can install it with the command ***pip install urllib3***
+
+## Create an API_KEY for google maps
+
+Steps to remember when creating the API_KEY:
+
+1. Open google cloud console.
+2. Enable billing by providing billing information.
+3. Create a new project
+4. Enable the folloing four apis.
+5. 
+
 
 ## Inputs to the code
 
