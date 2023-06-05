@@ -109,8 +109,13 @@ This returns a HTML file [Pickup(duration)map.html](https://github.com/jithendra
 
 ![Shortest Duration](https://github.com/jithendra-varma/Shortest_pickup_path_algorithm_using_python/blob/main/Images/Pickup_Duration.png)
 
----
+## License
 
-### :man_astronaut: &nbsp; Show your support
+This project is licensed under the [MIT License](LICENSE).
 
-Give a ⭐️ if this helped you!
+## Contact
+
+For any inquiries or feedback, please contact:
+
+- Jithendra Varma
+- Email: jithendra9367@gmail.com
